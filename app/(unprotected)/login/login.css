@@ -1,0 +1,22 @@
+.login {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+
+
+@media screen and (max-width: 992px) {
+  .login {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login {
+    max-width: 50%;
+  }
+}

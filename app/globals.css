@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex: 0 0 auto;
+  block-size: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.right {
+  margin-left: 30%;
+  flex: 1 0 auto;
+  padding: 40px 10px;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.dark {
+  background-color: #1a202c;
+}
+
+.light {
+  background-color: #f7fafc;
+  background-image: url("/bg.png");
+}
+
+@media screen and (max-width: 1400px) {
+  .main {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main {
+    width: 55vw;
+  }
+}

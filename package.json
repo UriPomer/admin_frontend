@@ -1,0 +1,41 @@
+{
+  "name": "kuafu-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3300",
+    "build": "next build",
+    "start": "next start -p 3300",
+    "lint": "next lint",
+    "postinstall": "node ./public/postinstall.js"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "bcryptjs-react": "^2.4.6",
+    "crypto-js": "^4.2.0",
+    "flowbite": "^2.0.0",
+    "flowbite-react": "^0.6.4",
+    "fs-extra": "^11.1.1",
+    "http-proxy-middleware": "^2.0.6",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.3",
+    "sweetalert2": "^11.9.0",
+    "tinymce": "^6.7.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
