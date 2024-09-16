@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 展示
+### 登录
+若没有登录自动跳转到登录页面
+![login](./README/login.gif)
+
+### 黑暗模式 && 创建文章
+![dark](./README/darkmode.gif)
+
+### 删除操作
+真实和服务器上数据库交互
+![delete](./README/delete.gif)
 
 ## Getting Started
 
